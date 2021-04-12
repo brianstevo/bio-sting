@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog App</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/app.css"> <!-- if we donot put the / before the path of stylesheets it looks in the blogs/stylesheets blogs is the path set and not the container of app.css so if we put a /, it goes to the root folder and traverses -->
+    </head>
+    <body>
+        <div class="ui fixed inverted menu"> <!-- creates the black bar to hold the buttons known as the nav bar -->
+            <div class="ui container"> <!-- opens the container to hold the data -->
+                <div class="header item"><i class="code icon"></i>Blog Site</div> <!-- displays "Blog Site" and the icon -->
+                <a href="/" class="item">Home</a>
+                <a href="/blogs/new" class="item">New Post</a> <!-- creates the two buttons and sets the href to both -->
+            </div>
+        </div>
